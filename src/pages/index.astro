@@ -9,18 +9,16 @@ import BriefcaseIcon from "../components/icons/Briefcase.astro"
 import MailIcon from "../components/icons/Mail.astro"
 import Experience from "../components/Experience.astro"
 import SectionContainer from "../components/SectionContainer.astro"
+import CodeIcon from "../components/icons/Code.astro"
+import Projects from "../components/Projects.astro"
 ---
 
 <Layout
 	title="Portfolio de mavend - Desarrolladora y Programadora Web"
 	description="Contrata a mavend para crear tu aplicación web o móvil. Desarrolladora Web. Especializada en crear aplicaciones únicas">
 	<main class="px-4">
-		<SectionContainer class="py-44 pb-24">
-			<img
-				class="rounded-full size-12 mb-4"
-				src="/pingui.jpg"
-				alt="mavend photo"
-			/>
+		<SectionContainer class="py-44 pb-32">
+			<img class="rounded-full size-12 mb-4" src="/pingui.jpg" alt="mavend photo" />
 			<h1
 				class="text-white text-3xl md:text-4xl lg:text-5xl font-bold flex flex-row gap-x-4 pb-6 lg:pb-10">
 				Hola, soy mavend <a
@@ -35,8 +33,7 @@ import SectionContainer from "../components/SectionContainer.astro"
 				<span>+15 años de experiencia.</span>
 				<span class="text-yellow-200/90">
 					Desarrollador Web y Creador de Contenido</span
-				>.<span class="text-red-200/90"> De Lima, Perú 🇵🇪</span>.<span
-					class="opacity-75">
+				>.<span class="text-red-200/90"> De Lima, Perú 🇵🇪</span>.<span class="opacity-75">
 					Especializado en crear aplicaciones únicas</span
 				>
 			</h2>
@@ -56,11 +53,18 @@ import SectionContainer from "../components/SectionContainer.astro"
 			</nav>
 		</SectionContainer>
 		<SectionContainer id="experience">
-			<h2 class="text-2xl font-semibold mb-6 flex gap-x-3 items-center">
+			<h2 class="text-3xl font-semibold mb-6 flex gap-x-3 items-center">
 				<BriefcaseIcon class="size-7" />
 				Experiencia Laboral
 			</h2>
 			<Experience />
+		</SectionContainer>
+		<SectionContainer id="experience">
+			<h2 class="text-3xl font-semibold mb-6 flex gap-x-3 items-center">
+				<CodeIcon class="size-7" />
+				Proyectos
+			</h2>
+			<Projects />
 		</SectionContainer>
 	</main>
 </Layout>
