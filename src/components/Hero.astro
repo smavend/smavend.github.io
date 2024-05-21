@@ -1,0 +1,50 @@
+---
+const personalImgAlt = "Mavend picture"
+import Badge from "./Badge.astro"
+import SocialPill from "./SocialPill.astro"
+import GitHubIcon from "./icons/GitHub.astro"
+import LinkedInIcon from "./icons/LinkedIn.astro"
+import MailIcon from "./icons/Mail.astro"
+---
+
+<div >
+	<div class="flex gap-4 mb-4">
+		<img class="rounded-full shadow-lg size-16" src="/pingui.jpg" alt={personalImgAlt} />
+	</div>
+	<h1
+		class="text-gray-800 dark:text-white text-4xl sm:text-5xl tracking-tight md:text-4xl lg:text-5xl font-bold flex flex-row gap-x-4">
+		Hola, soy mavend<a
+			href="https://linkedin.com/in/beatrizmavend"
+			target="_blank"
+			rel="noopener"
+			class={`flex md:justify-center items-center
+					hover:scale-105 transition tracking-normal`}>
+			<Badge>Disponible para trabajar</Badge>
+		</a>
+	</h1>
+    
+	<p
+		class="mt-6 text-xl max-w-xl
+				text-gray-800 dark:[&>strong]:text-yellow-200 [&>strong]:text-yellow-500 [&>strong]:font-semibold dark:text-gray-300">
+		<span>+15 años de experiencia.</span>
+		<strong class="text-yellow-800 dark:text-yellow-200">
+			Desarrollador Web y Creador de Contenido</strong>.<span class="text-red-800 dark:text-red-200"> De Lima, Perú 🇵🇪</span>.<span
+			class="text-sky-800 dark:text-sky-200">
+			Especializado en crear aplicaciones únicas.</span
+		>
+	</p>
+	<nav class="flex gap-4 mt-8 flex-wrap">
+		<SocialPill href="https://linkedin.com/in/beatrizmavend">
+			<LinkedInIcon class="size-4 md:size-6" />
+			LinkedIn
+		</SocialPill>
+		<SocialPill href="https://github.com/smavend">
+			<GitHubIcon class="size-4 md:size-6" />
+			GitHub
+		</SocialPill>
+		<SocialPill href="mailto:amanrique068@gmail.com">
+			<MailIcon class="size-4 md:size-6" />
+			Contáctame
+		</SocialPill>
+	</nav>
+</div>
