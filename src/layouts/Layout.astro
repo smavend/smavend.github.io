@@ -18,7 +18,7 @@ const { description, title } = Astro.props
 		<meta charset="UTF-8" />
 		<meta name="description" content={description} />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="public/favicon.svg" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 		<ViewTransitions />
@@ -58,7 +58,7 @@ const { description, title } = Astro.props
 
 			@media (prefers-color-scheme: dark) {
 				body {
-				color: rgba(255, 255, 255, 0.9);
+					color: rgba(255, 255, 255, 0.9);
 				}
 			}
 

@@ -2,7 +2,6 @@
 import ThemeToggle from "./ThemeToggle.astro"
 
 const navItems = [
-	
 	{
 		title: "Experiencia",
 		label: "experience",
@@ -37,14 +36,14 @@ const navItems = [
 		{
 			navItems.map((link) => (
 				<a
-					class="relative block px-2 py-2 transition hover:text-yellow-500 dark:hover:text-yellow-400"
+					class="relative block px-2 py-2 transition hover:text-green-500 dark:hover:text-green-400"
 					aria-label={link.label}
 					href={link.url}>
 					{link.title}
 				</a>
 			))
 		}
-		<ThemeToggle/>
+		<ThemeToggle />
 	</nav>
 </header>
 
@@ -58,9 +57,9 @@ const navItems = [
 				if (entry.isIntersecting) {
 					navItems.forEach((item) => {
 						if (item.getAttribute("aria-label") == entry.target.id) {
-							item.classList.add("text-yellow-500")
+							item.classList.add("text-green-500")
 						} else {
-							item.classList.remove("text-yellow-500")
+							item.classList.remove("text-green-500")
 						}
 					})
 				}
@@ -99,7 +98,7 @@ const navItems = [
 
 	@keyframes nav-shadown {
 		to {
-			@apply shadow-lg ring-1 backdrop-blur dark:bg-gray-800/90 bg-white/50 ring-white/10;
+			@apply shadow-lg ring-1 backdrop-blur dark:bg-gray-800/60 bg-white/20 dark:ring-white/10 ring-white/10 dark:shadow-gray-800/5;
 		}
 	}
 </style>
