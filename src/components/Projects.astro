@@ -8,12 +8,12 @@ import Link from "./icons/Link.astro"
 const TAGS = {
 	NEXT: {
 		name: "Next.js",
-		class: "bg-black text-white",
+		class: "dark:bg-black dark:text-white bg-gray text-black",
 		icon: NextJS,
 	},
 	TAILWIND: {
 		name: "Tailwind CSS",
-		class: "bg-[#003159] text-white",
+		class: "dark:bg-[#003159] dark:text-white bg-blue-200/80 text-sky-600",
 		icon: TalwindCSS,
 	},
 }
@@ -43,7 +43,8 @@ const PROJECTS = [
 		PROJECTS.map(({ title, description, link, image, tags, github }) => (
 			<article class="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
 				<div class="w-full md:w-1/2">
-					<div class={`
+					<div
+						class={`
 						relative flex flex-col items-center
 						col-span-6 row-span-5 gap-8 transition
 						duration-500 ease-in-out transform shadow-xl
@@ -69,7 +70,8 @@ const PROJECTS = [
 										class={`
 										flex gap-x-2 rounded-full text-xs ${tag.class}
 										py-1 px-2 
-										border border-white/10
+										border border-black/10
+										dark:border dark:border-white/10
                                 	`}>
 										<tag.icon class="size-4" />
 										{tag.name}
