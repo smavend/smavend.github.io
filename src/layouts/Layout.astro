@@ -56,6 +56,12 @@ const { description, title } = Astro.props
 				}
 			}
 
+			@media (prefers-color-scheme: dark) {
+				body {
+				color: rgba(255, 255, 255, 0.9);
+				}
+			}
+
 			#header-nav {
 				animation: blur linear both 0.5s;
 				animation-timeline: scroll();
@@ -67,10 +73,7 @@ const { description, title } = Astro.props
 					backdrop-filter: blur(20px);
 					border-width: 1px;
 					border-color: rgba(0, 0, 0);
-					padding-left: 0.75rem;
-					padding-right: 0.75rem;
-					padding-top: 0.25rem;
-					padding-bottom: 0.25rem;
+					padding: 0.25rem 0.75rem;
 					display: flex;
 					flex-direction: row;
 					align-items: center;
@@ -80,9 +83,6 @@ const { description, title } = Astro.props
 			}
 
 			@media (prefers-color-scheme: dark) {
-				body {
-					color: rgba(255, 255, 255, 0.9);
-				}
 				@keyframes blur {
 					from {
 						border: 0px;

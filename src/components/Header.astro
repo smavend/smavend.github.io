@@ -1,4 +1,6 @@
 ---
+import ThemeToggle from "./ThemeToggle.astro"
+
 const navItems = [
 	
 	{
@@ -30,10 +32,7 @@ const navItems = [
   `}>
 	<nav
 		class={`
-		flex px-3 text-sm font-medium text-gray-800 rounded-full shadow-lg
-		bg-white/90 shadow-gray-800/5 ring-1 ring-gray-900/5
-		backdrop-blur dark:bg-gray-800/60 dark:text-gray-200
-		dark:ring-white/10
+		flex px-3 text-sm font-medium rounded-full text-gray-600 dark:text-gray-200 justify-center items-center
 		`}>
 		{
 			navItems.map((link) => (
@@ -45,6 +44,7 @@ const navItems = [
 				</a>
 			))
 		}
+		<ThemeToggle/>
 	</nav>
 </header>
 
@@ -78,8 +78,14 @@ const navItems = [
 		})
 
 		// Cleanup function
-		window.onunload = () => {
-			observer.disconnect()
+		document.onvisibilitychange = () => {
+			if (document.visibilityState === "hidden") {
+				observer.disconnect()
+			} else {
+				sections.forEach((section) => {
+					observer.observe(section)
+				})
+			}
 		}
 	})
 </script>
@@ -88,11 +94,12 @@ const navItems = [
 	nav {
 		animation: nav-shadown 1s linear both;
 		animation-timeline: scroll();
-		animation-range: 0 400px;
+		animation-range: 0 100px;
 	}
+
 	@keyframes nav-shadown {
 		to {
-			@apply shadow-xl;
+			@apply shadow-lg ring-1 backdrop-blur dark:bg-gray-800/90 bg-white/50 ring-white/10;
 		}
 	}
 </style>
