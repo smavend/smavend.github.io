@@ -4,7 +4,12 @@ import SunIcon from "./icons/Sun.astro"
 import MoonIcon from "./icons/Moon.astro"
 import SystemIcon from "./icons/System.astro"
 
-const THEMES = t("theme-toggle.options", { returnObjects: true })
+interface Themes {
+	text: string
+	theme: string
+}
+
+const THEMES: Themes[] = t("theme-toggle.options", { returnObjects: true })
 ---
 
 <div class="relative ml-1 mr-1">

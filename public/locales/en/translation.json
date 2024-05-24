@@ -75,25 +75,25 @@
   },
   "nav": [
     {
-		"title": "Experience",
-		"label": "experience",
-		"url": "/#experience"
-	},
-	{
-		"title": "Projects",
-		"label": "projects",
-		"url": "/#projects"
-	},
-	{
-		"title": "About me",
-		"label": "about",
-		"url": "/#about"
-	},
-	{
-		"title": "Contact",
-		"label": "contact",
-		"url": "/#contact"
-	}
+      "title": "Experience",
+      "label": "experience",
+      "url": "/#experience"
+    },
+    {
+      "title": "Projects",
+      "label": "projects",
+      "url": "/#projects"
+    },
+    {
+      "title": "About me",
+      "label": "about",
+      "url": "/#about"
+    },
+    {
+      "title": "Contact",
+      "label": "contact",
+      "url": "/#contact"
+    }
   ],
   "theme-toggle":{
     "theme": "Choose a theme",

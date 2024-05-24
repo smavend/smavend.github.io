@@ -2,7 +2,15 @@
 import { t } from "i18next"
 import ExperienceItem from "./ExperienceItem.astro"
 
-const EXPERIENCE = t("experience.experiences", { returnObjects: true })
+interface ExpItem {
+	date: string
+	title: string
+	company: string
+	description: string
+	link: string
+}
+
+const EXPERIENCE: ExpItem[] = t("experience.experiences", { returnObjects: true })
 ---
 
 <ol class="relative mt-16">

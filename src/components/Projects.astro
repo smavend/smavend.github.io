@@ -6,7 +6,7 @@ import NextJS from "./icons/NextJS.astro"
 import TalwindCSS from "./icons/TailwindCSS.astro"
 import Link from "./icons/Link.astro"
 
-const TAGS = {
+const TAGS_STATIC = {
 	NEXT: {
 		name: "Next.js",
 		class: "dark:bg-black dark:text-white bg-gray text-black",
@@ -18,7 +18,17 @@ const TAGS = {
 		icon: TalwindCSS,
 	},
 }
-const PROJECTS = t('projects.items', { returnObjects: true });
+
+interface Projects {
+	title: string
+	description: string
+	link?: string
+	image: string
+	tags: string[]
+	github?: string
+}
+
+const PROJECTS: Projects[] = t("projects.items", { returnObjects: true })
 ---
 
 <div class="flex flex-col gap-y-16">
@@ -48,7 +58,7 @@ const PROJECTS = t('projects.items', { returnObjects: true });
 					<div class="flex flex-wrap mt-2">
 						<ul class="flex flex-row mb-2 gap-x-2">
 							{tags.map((tagKey) => {
-								const tag = TAGS[tagKey];
+								const tag = TAGS_STATIC[tagKey as keyof typeof TAGS_STATIC]
 								return (
 									<li>
 										<span
@@ -62,7 +72,7 @@ const PROJECTS = t('projects.items', { returnObjects: true });
 											{tag.name}
 										</span>
 									</li>
-								);
+								)
 							})}
 						</ul>
 						<div class="mt-2 text-gray-700 dark:text-gray-400">{description}</div>

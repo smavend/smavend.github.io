@@ -1,10 +1,16 @@
 ---
 import { t } from "i18next"
-import { Trans, HeadHrefLangs } from "astro-i18next/components"
+import { HeadHrefLangs } from "astro-i18next/components"
 import ThemeToggle from "./ThemeToggle.astro"
 import LangToggle from "./LangToggle.astro"
 
-const navItems = t("nav", { returnObjects: true })
+interface NavItem {
+	title: string
+	label: string
+	url: string
+}
+
+const navItems: NavItem[] = t("nav", { returnObjects: true })
 ---
 
 <header

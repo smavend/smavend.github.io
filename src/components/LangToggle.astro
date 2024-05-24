@@ -1,10 +1,14 @@
 ---
 import { t } from "i18next"
-import SystemIcon from "./icons/System.astro"
 import SpanishIcon from "./icons/Spanish.astro"
 import EnglishIcon from "./icons/English.astro"
 
-const LANGUAGES = t("lang-toggle.options", { returnObjects: true })
+interface Languages {
+	text: string
+	lang: string
+}
+
+const LANGUAGES: Languages[] = t("lang-toggle.options", { returnObjects: true })
 ---
 
 <div class="relative ml-1 mr-1">
