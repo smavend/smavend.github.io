@@ -1,23 +1,35 @@
 ---
 import { t } from "i18next"
+import GitHub from "./icons/GitHub.astro"
 const currentYear = new Date().getFullYear()
 ---
 
 <footer
 	class="opacity-80 m-4 mt-16 w-full mx-auto container lg:max-w-4xl md:max-w-2xl mb-10 flex justify-center">
 	<div
-		class="rounded-lg w-full max-w-screen-xl mx-auto md:flex md:items-center md:justify-between py-4">
+		class="rounded-lg w-full max-w-screen-xl mx-auto md:flex md:items-center md:justify-between py-4 px-4">
 		<span class="text-sm sm:text-center text-zinc-800/90 dark:text-zinc-200/90"
 			>© {currentYear}
-			<a href="https://smavend.github.io/" class="hover:underline">mavend</a>. {t("footer.text")}
+			<a href="https://smavend.github.io/" class="hover:underline">mavend</a>. {
+				t("footer.text")
+			}
 		</span>
-		<ul class="flex flex-wrap items-center mt-3 text-sm font-medium dark:text-white/90 sm:mt-0">
+		<ul
+			class="flex flex-wrap justify-center items-center mt-3 text-sm font-medium dark:text-white/90 sm:mt-0">
 			<li>
 				<a href="/#about" class="hover:underline me-4 md:me-6">{t("about.title")}</a>
 			</li>
 			<li>
-				<a id="contact" href="mailto:amanrique068@gmail.com" class="hover:underline">{t("contact.title")}</a
+				<a
+					id="contact"
+					href="mailto:amanrique068@gmail.com"
+					class="hover:underline me-4 md:me-6">{t("contact.title")}</a
 				>
+			</li>
+			<li>
+				<a href="https://github.com/smavend/smavend.github.io" class="transition-all">
+					<GitHub class="size-5 trasnsition-all" />
+				</a>
 			</li>
 		</ul>
 	</div>
