@@ -1,16 +1,16 @@
 ---
-import { t, changeLanguage } from "i18next";
-import Layout from "@/layouts/Layout.astro";
-import BriefcaseIcon from "@/components/icons/Briefcase.astro";
-import Experience from "@/components/Experience.astro";
-import AboutMe from "@/components/AboutMe.astro";
-import SectionContainer from "@/components/SectionContainer.astro";
-import CodeIcon from "@/components/icons/Code.astro";
-import Projects from "@/components/Projects.astro";
-import ProfileCheckIcon from "@/components/icons/ProfileCheck.astro";
-import Hero from "@/components/Hero.astro";
+import { t, changeLanguage } from "i18next"
+import Layout from "@/layouts/Layout.astro"
+import BriefcaseIcon from "@/components/icons/Briefcase.astro"
+import Experience from "@/components/Experience.astro"
+import AboutMe from "@/components/AboutMe.astro"
+import SectionContainer from "@/components/SectionContainer.astro"
+import CodeIcon from "@/components/icons/Code.astro"
+import Projects from "@/components/Projects.astro"
+import ProfileCheckIcon from "@/components/icons/ProfileCheck.astro"
+import Hero from "@/components/Hero.astro"
 
-changeLanguage("es");
+changeLanguage("es")
 ---
 
 <Layout title={t("site.title")} description={t("site.description")}>
@@ -19,6 +19,15 @@ changeLanguage("es");
 			<Hero />
 		</SectionContainer>
 		<div class="space-y-24">
+			<SectionContainer id="projects">
+				<h2
+					class="flex items-center mb-6 text-3xl font-semibold gap-x-3
+			text-black/80 dark:text-white">
+					<CodeIcon class="size-7" />
+					{t("projects.title")}
+				</h2>
+				<Projects />
+			</SectionContainer>
 			<SectionContainer id="experience">
 				<h2
 					class="flex items-center mb-6 text-3xl font-semibold gap-x-3
@@ -29,15 +38,6 @@ changeLanguage("es");
 				<Experience />
 			</SectionContainer>
 
-			<SectionContainer id="projects">
-				<h2
-					class="flex items-center mb-6 text-3xl font-semibold gap-x-3
-			text-black/80 dark:text-white">
-					<CodeIcon class="size-7" />
-					{t("projects.title")}
-				</h2>
-				<Projects />
-			</SectionContainer>
 			<SectionContainer id="about">
 				<h2
 					class="flex items-center mb-6 text-3xl font-semibold gap-x-8 text-black/80 dark:text-white">

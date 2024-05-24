@@ -14,27 +14,6 @@
         "mail": "Contáctame"
     }
   },
-  "experience": {
-    "title": "Experiencia laboral",
-    "more": "Saber más",
-    "experiences": [
-        {
-            "date": "Actualmente...",
-            "title": "Creador de Contenido",
-            "company": "Twitch",
-            "description":
-                "Divulgo sobre programación y desarrollo web en diferentes plataformas. Galardonado como mejor creador de contenido de habla no-inglesa en 2022 y mejor comunidad en 2023 por GitHub.",
-            "link": "https://twitch.tv/midudev"
-        },
-        {
-            "date": "Septiembre 2022",
-            "title": "Principal Frontend Engineer",
-            "company": "Adevinta Spain",
-            "description":
-                "Responsable de la plataforma, componentes y utilidades para la creación y desarrollo de aplicaciones web. Mejora de un 30% en la entrega de software. Implantación de medidas de integración continua y despliegue con A/B testing en más de 15 equipos."
-        }
-    ]
-  },
   "projects": {
     "title": "Proyectos",
     "items": [
@@ -61,6 +40,27 @@
         "link": "Visitar"
     }
   },
+  "experience": {
+    "title": "Experiencia laboral",
+    "more": "Saber más",
+    "experiences": [
+        {
+            "date": "Actualmente...",
+            "title": "Creador de Contenido",
+            "company": "Twitch",
+            "description":
+                "Divulgo sobre programación y desarrollo web en diferentes plataformas. Galardonado como mejor creador de contenido de habla no-inglesa en 2022 y mejor comunidad en 2023 por GitHub.",
+            "link": "https://twitch.tv/midudev"
+        },
+        {
+            "date": "Septiembre 2022",
+            "title": "Principal Frontend Engineer",
+            "company": "Adevinta Spain",
+            "description":
+                "Responsable de la plataforma, componentes y utilidades para la creación y desarrollo de aplicaciones web. Mejora de un 30% en la entrega de software. Implantación de medidas de integración continua y despliegue con A/B testing en más de 15 equipos."
+        }
+    ]
+  },
   "about": {
     "title": "Sobre mí",
     "content1": "Me llamo Miguel Ángel pero mis amigos me llaman midu. Empecé en la programación con un Amstrad, tenía 10 años. Actualmente estoy <0>liderando equipos de desarrollo en multinacionales</0>.",
@@ -75,14 +75,14 @@
   },
   "nav": [
     {
-		"title": "Experiencia",
-		"label": "experience",
-		"url": "/#experience"
-    },
-    {
       "title": "Proyectos",
       "label": "projects",
       "url": "/#projects"
+    },
+    {
+      "title": "Experiencia",
+      "label": "experience",
+      "url": "/#experience"
     },
     {
       "title": "Sobre mí",

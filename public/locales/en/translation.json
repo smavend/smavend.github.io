@@ -14,27 +14,6 @@
         "mail": "Contact me"
     }
   },
-  "experience": {
-    "title": "Laboral experience",
-    "more": "More info",
-    "experiences": [
-        {
-            "date": "Currently...",
-            "title": "Content Creator",
-            "company": "Twitch",
-            "description":
-                "I spread the word about programming and web development on different platforms. Awarded best non-English speaking content creator in 2022 and best community in 2023 by GitHub.",
-            "link": "https://twitch.tv/midudev"
-        },
-        {
-            "date": "September 2022",
-            "title": "Principal Frontend Engineer",
-            "company": "Adevinta Spain",
-            "description":
-                "Responsible for the platform, components and utilities for the creation and development of web applications. 30% improvement in software delivery. Implementation of continuous integration measures and deployment with A/B testing in more than 15 teams."
-        }
-    ]
-  },
   "projects": {
     "title": "Projects",
     "items": [
@@ -61,6 +40,27 @@
         "link": "Preview"
     }
   },
+  "experience": {
+    "title": "Laboral experience",
+    "more": "More info",
+    "experiences": [
+        {
+            "date": "Currently...",
+            "title": "Content Creator",
+            "company": "Twitch",
+            "description":
+                "I spread the word about programming and web development on different platforms. Awarded best non-English speaking content creator in 2022 and best community in 2023 by GitHub.",
+            "link": "https://twitch.tv/midudev"
+        },
+        {
+            "date": "September 2022",
+            "title": "Principal Frontend Engineer",
+            "company": "Adevinta Spain",
+            "description":
+                "Responsible for the platform, components and utilities for the creation and development of web applications. 30% improvement in software delivery. Implementation of continuous integration measures and deployment with A/B testing in more than 15 teams."
+        }
+    ]
+  },
   "about": {
     "title": "About me",
     "content1": "EngLish Me llamo Miguel Ángel pero mis amigos me llaman midu. Empecé en la programación con un Amstrad, tenía 10 años. Actualmente estoy <0>liderando equipos de desarrollo en multinacionales</0>.",
@@ -75,14 +75,14 @@
   },
   "nav": [
     {
-      "title": "Experience",
-      "label": "experience",
-      "url": "/#experience"
-    },
-    {
       "title": "Projects",
       "label": "projects",
       "url": "/#projects"
+    },
+    {
+      "title": "Experience",
+      "label": "experience",
+      "url": "/#experience"
     },
     {
       "title": "About me",
