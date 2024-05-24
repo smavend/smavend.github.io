@@ -1,4 +1,5 @@
 ---
+import { t } from "i18next"
 import LinkButton from "./LinkButton.astro"
 import GitHub from "./icons/GitHub.astro"
 import NextJS from "./icons/NextJS.astro"
@@ -17,25 +18,7 @@ const TAGS = {
 		icon: TalwindCSS,
 	},
 }
-const PROJECTS = [
-	{
-		title: "SVGL - A beautiful library with SVG logos",
-		description:
-			"Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
-		link: "https://svgl.app",
-		github: "https://github.com/pheralb/svgl",
-		image: "/projects/svgl.webp",
-		tags: [TAGS.NEXT, TAGS.TAILWIND],
-	},
-	{
-		title: "AdventJS - Retos de programación con JavaScript y TypeScript",
-		description:
-			"Plataforma gratuita con retos de programación. Más de 1 millón de visitas en un mes. +50K retos completados. Creada desde cero con Next.js, React y Tailwind CSS",
-		link: "https://adventjs.dev",
-		image: "/projects/adventjs.webp",
-		tags: [TAGS.NEXT, TAGS.TAILWIND],
-	},
-]
+const PROJECTS = t('projects.items', { returnObjects: true });
 ---
 
 <div class="flex flex-col gap-y-16">
@@ -64,33 +47,36 @@ const PROJECTS = [
 					<h3 class="text-2xl font-bold text-gray-800 dark:text-gray-100">{title}</h3>
 					<div class="flex flex-wrap mt-2">
 						<ul class="flex flex-row mb-2 gap-x-2">
-							{tags.map((tag) => (
-								<li>
-									<span
-										class={`
-										flex gap-x-2 rounded-full text-xs ${tag.class}
-										py-1 px-2 
-										border border-black/10
-										dark:border dark:border-white/10
-                                	`}>
-										<tag.icon class="size-4" />
-										{tag.name}
-									</span>
-								</li>
-							))}
+							{tags.map((tagKey) => {
+								const tag = TAGS[tagKey];
+								return (
+									<li>
+										<span
+											class={`
+												flex gap-x-2 rounded-full text-xs ${tag.class}
+												py-1 px-2 
+												border border-black/10
+												dark:border dark:border-white/10
+											`}>
+											<tag.icon class="size-4" />
+											{tag.name}
+										</span>
+									</li>
+								);
+							})}
 						</ul>
 						<div class="mt-2 text-gray-700 dark:text-gray-400">{description}</div>
 						<footer class="flex items-end justify-start mt-4 gap-x-4">
 							{github && (
 								<LinkButton href={github}>
 									<GitHub class="size-6" />
-									Code
+									{t("projects.linkbutton.github")}
 								</LinkButton>
 							)}
 							{link && (
 								<LinkButton href={link}>
 									<Link class="size-4" />
-									Preview
+									{t("projects.linkbutton.link")}
 								</LinkButton>
 							)}
 						</footer>

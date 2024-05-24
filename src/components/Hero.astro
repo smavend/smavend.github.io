@@ -1,4 +1,6 @@
 ---
+import { t } from "i18next"
+import { Trans } from "astro-i18next/components"
 const personalImgAlt = "Mavend picture"
 import Badge from "./Badge.astro"
 import SocialPill from "./SocialPill.astro"
@@ -13,38 +15,36 @@ import MailIcon from "./icons/Mail.astro"
 	</div>
 	<h1
 		class="text-gray-800 dark:text-white text-4xl sm:text-5xl tracking-tight md:text-4xl lg:text-5xl font-bold flex flex-row gap-x-4">
-		Hola, soy mavend<a
+		{t("hero.title")}<a
 			href="https://linkedin.com/in/beatrizmavend"
 			target="_blank"
 			rel="noopener"
 			class={`flex md:justify-center items-center
 					hover:scale-105 transition tracking-normal`}>
-			<Badge>Disponible para trabajar</Badge>
+			<Badge>{t("hero.badge")}</Badge>
 		</a>
 	</h1>
 
 	<p
 		class="mt-6 text-xl max-w-xl
 				text-gray-800 dark:[&>strong]:text-blue-300 [&>strong]:text-blue-500 [&>strong]:font-semibold dark:text-gray-300">
-		<span>Estudiante de Ingeniería de Telecomunicaciones.</span><br />
-		<strong> Interés en el rubro del Desarrollo Web, Móvil y Networking</strong>.<span>
-			De Lima, Perú 🇵🇪</span
-		>.<span class="text-green-600 dark:text-yellow-100">
-			Especializada en desarrollar aplicaciones de alto nivel.</span
-		>
+		<Trans i18nKey="hero.description">
+			<span></span><br /><strong></strong>.<span></span>.<span
+				class="text-green-600 dark:text-yellow-100"></span>
+		</Trans>
 	</p>
 	<nav class="flex flex-wrap gap-4 mt-8">
 		<SocialPill href="https://linkedin.com/in/beatrizmavend">
 			<LinkedInIcon class="size-4 md:size-6" />
-			LinkedIn
+			{t("hero.socialpill.linkedin")}
 		</SocialPill>
 		<SocialPill href="https://github.com/smavend">
 			<GitHubIcon class="size-4 md:size-6" />
-			GitHub
+			{t("hero.socialpill.github")}
 		</SocialPill>
 		<SocialPill href="mailto:amanrique068@gmail.com">
 			<MailIcon class="size-4 md:size-6" />
-			Contáctame
+			{t("hero.socialpill.mail")}
 		</SocialPill>
 	</nav>
 </div>

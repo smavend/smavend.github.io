@@ -1,5 +1,7 @@
 ---
 import "@fontsource-variable/onest"
+
+import i18next from "i18next"
 import Header from "../components/Header.astro"
 import Footer from "../components/Footer.astro"
 import { ViewTransitions } from "astro:transitions"
@@ -13,7 +15,7 @@ const { description, title } = Astro.props
 ---
 
 <!doctype html>
-<html lang="es">
+<html lang={i18next.language}>
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="description" content={description} />

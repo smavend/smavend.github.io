@@ -1,4 +1,5 @@
 ---
+import { Trans } from "astro-i18next/components"
 const personalImgAlt = "Mavend picture"
 ---
 
@@ -12,26 +13,21 @@ const personalImgAlt = "Mavend picture"
         order-2 md:order-1
         `}>
 		<p>
-			Me llamo Miguel Ángel pero mis amigos me llaman midu. Empecé en la programación con un
-			Amstrad, tenía 10 años. Actualmente estoy <strong
-				>liderando equipos de desarrollo en multinacionales</strong
-			>.
+			<Trans i18nKey="about.content1">
+				<strong></strong>
+			</Trans>
 		</p>
 
 		<p>
-			Algunos de mis éxitos incluyen <strong
-				>colaborar con Mozilla para el desarrollo de las primeras apps en su sistema
-				FirefoxOS</strong
-			>. Aunque hoy está desaparecido fue un gran avance en el mundo del desarrollo web.
+			<Trans i18nKey="about.content2">
+				<strong></strong>
+			</Trans>
 		</p>
 
 		<p>
-			Como creador de contenido, <strong
-				>cuento con el canal de habla hispana más visto del mundo en la categoría de <em
-					class="italic">Software & Game Development</em
-				> en Twitch</strong
-			>. Mi objetivo es mejorar la empleabilidad de la comunidad hispana y el acceso a
-			contenido de calidad.
+			<Trans i18nKey="about.content3">
+				<strong><em class="italic"></em></strong>
+			</Trans>
 		</p>
 	</div>
 	<img src="/me.jpg" class="rounded-full size-64 order-1 md:order-2" alt={personalImgAlt} />

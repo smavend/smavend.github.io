@@ -1,0 +1,106 @@
+{
+  "site": {
+    "title": "Mavend portfolio - Web Developer and Programmer",
+    "description": "Hire mavend to create your web or mobile application. Web Developer. Specialized in creating unique applications.",
+    "example": "Example"
+  },
+  "hero": {
+    "title": "Hi, I'm mavend",
+    "description": "<span>Telecommunications Engineering Student.</span><br /><strong> Interest in Web & Mobile Development, and Networking</strong>.<span> From Lima, Peru 🇵🇪</span>.<span class='text-green-600 dark:text-yellow-100'> Specialized in developing high-level applications.</span>",
+    "badge": "Open to work",
+    "socialpill": {
+        "linkedin": "LinkedIn",
+        "github": "GitHub",
+        "mail": "Contact me"
+    }
+  },
+  "experience": {
+    "title": "Laboral experience",
+    "more": "More info",
+    "experiences": [
+        {
+            "date": "Currently...",
+            "title": "Content Creator",
+            "company": "Twitch",
+            "description":
+                "I spread the word about programming and web development on different platforms. Awarded best non-English speaking content creator in 2022 and best community in 2023 by GitHub.",
+            "link": "https://twitch.tv/midudev"
+        },
+        {
+            "date": "September 2022",
+            "title": "Principal Frontend Engineer",
+            "company": "Adevinta Spain",
+            "description":
+                "Responsible for the platform, components and utilities for the creation and development of web applications. 30% improvement in software delivery. Implementation of continuous integration measures and deployment with A/B testing in more than 15 teams."
+        }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "items": [
+        {
+            "title": "SVGL - A beautiful library with SVG logos",
+            "description":
+                "SVG logo library of the most popular brands. +10k visits per month. +2K svgs downloaded. Built from scratch with Next.js, React and Tailwind CSS.",
+            "link": "https://svgl.app",
+            "github": "https://github.com/pheralb/svgl",
+            "image": "/projects/svgl.webp",
+            "tags": ["NEXT", "TAILWIND"]
+        },
+        {
+            "title": "AdventJS - Programming challenges with JavaScript and TypeScript",
+            "description":
+                "Free platform with programming challenges. More than 1 million visits in one month. +50K challenges completed. Built from scratch with Next.js, React and Tailwind CSS.",
+            "link": "https://adventjs.dev",
+            "image": "/projects/adventjs.webp",
+            "tags": ["NEXT", "TAILWIND"]
+        }
+    ],
+    "linkbutton": {
+        "github": "Code",
+        "link": "Preview"
+    }
+  },
+  "about": {
+    "title": "About me",
+    "content1": "EngLish Me llamo Miguel Ángel pero mis amigos me llaman midu. Empecé en la programación con un Amstrad, tenía 10 años. Actualmente estoy <0>liderando equipos de desarrollo en multinacionales</0>.",
+    "content2": "English Algunos de mis éxitos incluyen <0>colaborar con Mozilla para el desarrollo de las primeras apps en su sistema FirefoxOS</0>. Aunque hoy está desaparecido fue un gran avance en el mundo del desarrollo web.",
+    "content3": "English Como creador de contenido, <0>cuento con el canal de habla hispana más visto del mundo en la categoría de <em class='italic'>Software & Game Development</em> en Twitch</0>. Mi objetivo es mejorar la empleabilidad de la comunidad hispana y el acceso a contenido de calidad."
+  },
+  "contact": {
+    "title": "Contact"
+  },
+  "footer": {
+    "text": "Almost all rights reserved."
+  },
+  "nav": [
+    {
+		"title": "Experience",
+		"label": "experience",
+		"url": "/#experience"
+	},
+	{
+		"title": "Projects",
+		"label": "projects",
+		"url": "/#projects"
+	},
+	{
+		"title": "About me",
+		"label": "about",
+		"url": "/#about"
+	},
+	{
+		"title": "Contact",
+		"label": "contact",
+		"url": "/#contact"
+	}
+  ],
+  "theme-toggle":{
+    "theme": "Choose a theme",
+    "options": [{"text": "Light", "theme": "light"}, {"text": "Dark", "theme": "dark"}, {"text": "System", "theme": "system"}]
+  },
+  "lang-toggle":{
+    "lang": "Choose a language",
+    "options": [{"text": "Spanish", "lang": "es"}, {"text": "English", "lang": "en"}]
+  }
+}

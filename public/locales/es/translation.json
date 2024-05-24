@@ -1,0 +1,106 @@
+{
+  "site": {
+    "title": "Portfolio de mavend - Desarrolladora y Programadora Web",
+    "description": "Contrata a mavend para crear tu aplicación web o móvil. Desarrolladora Web. Especializada en crear aplicaciones únicas",
+    "example": "Ejemplo"
+  },
+  "hero": {
+    "title": "Hola, soy mavend",
+    "description": "<span>Estudiante de Ingeniería de Telecomunicaciones.</span><br /><strong> Interés en el rubro del Desarrollo Web, Móvil y Networking</strong>.<span> De Lima, Perú 🇵🇪</span>.<span class='text-green-600 dark:text-yellow-100'> Especializada en desarrollar aplicaciones de alto nivel.</span>",
+    "badge": "Disponible para trabajar",
+    "socialpill": {
+        "linkedin": "LinkedIn",
+        "github": "GitHub",
+        "mail": "Contáctame"
+    }
+  },
+  "experience": {
+    "title": "Experiencia laboral",
+    "more": "Saber más",
+    "experiences": [
+        {
+            "date": "Actualmente...",
+            "title": "Creador de Contenido",
+            "company": "Twitch",
+            "description":
+                "Divulgo sobre programación y desarrollo web en diferentes plataformas. Galardonado como mejor creador de contenido de habla no-inglesa en 2022 y mejor comunidad en 2023 por GitHub.",
+            "link": "https://twitch.tv/midudev"
+        },
+        {
+            "date": "Septiembre 2022",
+            "title": "Principal Frontend Engineer",
+            "company": "Adevinta Spain",
+            "description":
+                "Responsable de la plataforma, componentes y utilidades para la creación y desarrollo de aplicaciones web. Mejora de un 30% en la entrega de software. Implantación de medidas de integración continua y despliegue con A/B testing en más de 15 equipos."
+        }
+    ]
+  },
+  "projects": {
+    "title": "Proyectos",
+    "items": [
+        {
+            "title": "SVGL - Una hermosa librería con logos SVG",
+            "description":
+                "Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
+            "link": "https://svgl.app",
+            "github": "https://github.com/pheralb/svgl",
+            "image": "/projects/svgl.webp",
+            "tags": ["NEXT", "TAILWIND"]
+        },
+        {
+            "title": "AdventJS - Retos de programación con JavaScript y TypeScript",
+            "description":
+                "Plataforma gratuita con retos de programación. Más de 1 millón de visitas en un mes. +50K retos completados. Creada desde cero con Next.js, React y Tailwind CSS",
+            "link": "https://adventjs.dev",
+            "image": "/projects/adventjs.webp",
+            "tags": ["NEXT", "TAILWIND"]
+        }
+    ],
+    "linkbutton": {
+        "github": "Código",
+        "link": "Visitar"
+    }
+  },
+  "about": {
+    "title": "Sobre mí",
+    "content1": "Me llamo Miguel Ángel pero mis amigos me llaman midu. Empecé en la programación con un Amstrad, tenía 10 años. Actualmente estoy <0>liderando equipos de desarrollo en multinacionales</0>.",
+    "content2": "Algunos de mis éxitos incluyen <0>colaborar con Mozilla para el desarrollo de las primeras apps en su sistema FirefoxOS</0>. Aunque hoy está desaparecido fue un gran avance en el mundo del desarrollo web.",
+    "content3": "Como creador de contenido, <0>cuento con el canal de habla hispana más visto del mundo en la categoría de <em class='italic'>Software & Game Development</em> en Twitch</0>. Mi objetivo es mejorar la empleabilidad de la comunidad hispana y el acceso a contenido de calidad."
+  },
+  "contact": {
+    "title": "Contacto"
+  },
+  "footer": {
+    "text": "Casi todos los derechos reservados."
+  },
+  "nav": [
+    {
+		"title": "Experiencia",
+		"label": "experience",
+		"url": "/#experience"
+    },
+    {
+      "title": "Proyectos",
+      "label": "projects",
+      "url": "/#projects"
+    },
+    {
+      "title": "Sobre mí",
+      "label": "about",
+      "url": "/#about"
+    },
+    {
+      "title": "Contacto",
+      "label": "contact",
+      "url": "/#contact"
+    }
+  ],
+  "theme-toggle":{
+    "theme": "Escoge un tema",
+    "options": [{"text": "Claro", "theme": "light"}, {"text": "Oscuro", "theme": "dark"}, {"text": "Sistema", "theme": "system"}]
+  },
+  "lang-toggle":{
+    "lang": "Escoge un idioma",
+    "options": [{"text": "Español", "lang": "es"}, {"text": "Inglés", "lang": "en"}]
+  }
+}

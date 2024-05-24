@@ -2,6 +2,7 @@ import { defineConfig } from 'astro/config';
 
 import tailwind from "@astrojs/tailwind";
 import robotsTxt from "astro-robots-txt"
+import astroI18next from "astro-i18next";
 
 const SERVER_PORT = 4321;
 const LOCALHOST_URL = `http://localhost:${SERVER_PORT}`;
@@ -19,7 +20,7 @@ if  (isBuild) {
 export default defineConfig({
   server: { port: SERVER_PORT },
   site: BASE_URL,
-  integrations: [tailwind(), robotsTxt()],
+  integrations: [astroI18next(), tailwind(), robotsTxt()],
 
   build: {
     assets: 'astro'
