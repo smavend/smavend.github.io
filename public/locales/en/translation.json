@@ -77,22 +77,22 @@
     {
       "title": "Projects",
       "label": "projects",
-      "url": "/#projects"
+      "url": "/en/#projects"
     },
     {
       "title": "Experience",
       "label": "experience",
-      "url": "/#experience"
+      "url": "/en/#experience"
     },
     {
       "title": "About me",
       "label": "about",
-      "url": "/#about"
+      "url": "/en/#about"
     },
     {
       "title": "Contact",
       "label": "contact",
-      "url": "/#contact"
+      "url": "/en/#contact"
     }
   ],
   "theme-toggle":{
