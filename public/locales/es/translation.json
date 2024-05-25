@@ -2,7 +2,8 @@
   "site": {
     "title": "Portfolio de mavend - Desarrolladora y Programadora Web Trainne",
     "description": "Contrata a mavend para crear tu aplicación web o móvil. Desarrolladora Web. Especializada en crear aplicaciones únicas",
-    "example": "Ejemplo"
+    "example": "Ejemplo",
+    "components": "Componentes"
   },
   "hero": {
     "title": "Hola, soy mavend",

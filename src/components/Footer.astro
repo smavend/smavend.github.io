@@ -1,7 +1,9 @@
 ---
-import { t } from "i18next"
+import i18next, { t } from "i18next"
 import GitHub from "./icons/GitHub.astro"
 const currentYear = new Date().getFullYear()
+
+const lang = i18next.language !== "es" ? `${i18next.language}/` : ""
 ---
 
 <footer
@@ -17,7 +19,9 @@ const currentYear = new Date().getFullYear()
 		<ul
 			class="flex flex-wrap justify-center items-center mt-3 text-sm font-medium dark:text-white/90 sm:mt-0">
 			<li>
-				<a href="/#about" class="hover:underline me-4 md:me-6">{t("about.title")}</a>
+				<a href={`/${lang}components`} class="hover:underline me-4 md:me-6"
+					>{t("site.components")}</a
+				>
 			</li>
 			<li>
 				<a

@@ -2,7 +2,8 @@
   "site": {
     "title": "Mavend portfolio - Web Developer Trainee and Programmer",
     "description": "Hire mavend to create your web or mobile application. Web Developer. Specialized in creating unique applications.",
-    "example": "Example"
+    "example": "Example",
+    "components": "Components"
   },
   "hero": {
     "title": "Hi, I'm mavend",
