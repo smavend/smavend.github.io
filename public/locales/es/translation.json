@@ -1,12 +1,12 @@
 {
   "site": {
-    "title": "Portfolio de mavend - Desarrolladora y Programadora Web",
+    "title": "Portfolio de mavend - Desarrolladora y Programadora Web Trainne",
     "description": "Contrata a mavend para crear tu aplicación web o móvil. Desarrolladora Web. Especializada en crear aplicaciones únicas",
     "example": "Ejemplo"
   },
   "hero": {
     "title": "Hola, soy mavend",
-    "description": "<span>Estudiante de Ingeniería de Telecomunicaciones.</span><br /><strong> Interés en el rubro del Desarrollo Web, Móvil y Networking</strong>.<span> De Lima, Perú 🇵🇪</span>.<span class='text-green-600 dark:text-yellow-100'> Especializada en desarrollar aplicaciones de alto nivel.</span>",
+    "description": "<span>Estudiante de Ingeniería de Telecomunicaciones.</span><br /><strong> Interés en el rubro del Desarrollo Web, Móvil y Networking</strong>.<span> De Lima, Perú 🇵🇪</span>.<span class='text-green-600 dark:text-yellow-100'> Especializada en desarrollar aplicaciones de alto calidad.</span>",
     "badge": "Disponible para trabajar",
     "socialpill": {
         "linkedin": "LinkedIn",
@@ -41,7 +41,7 @@
     }
   },
   "experience": {
-    "title": "Experiencia laboral",
+    "title": "Logros y habilidades",
     "more": "Saber más",
     "experiences": [
         {
@@ -63,9 +63,9 @@
   },
   "about": {
     "title": "Sobre mí",
-    "content1": "Me llamo Miguel Ángel pero mis amigos me llaman midu. Empecé en la programación con un Amstrad, tenía 10 años. Actualmente estoy <0>liderando equipos de desarrollo en multinacionales</0>.",
-    "content2": "Algunos de mis éxitos incluyen <0>colaborar con Mozilla para el desarrollo de las primeras apps en su sistema FirefoxOS</0>. Aunque hoy está desaparecido fue un gran avance en el mundo del desarrollo web.",
-    "content3": "Como creador de contenido, <0>cuento con el canal de habla hispana más visto del mundo en la categoría de <em class='italic'>Software & Game Development</em> en Twitch</0>. Mi objetivo es mejorar la empleabilidad de la comunidad hispana y el acceso a contenido de calidad."
+    "content1": "Me llamo Beatriz Manrique Avendaño, de alias mavend. En mi carrera universitaria veo muchas aplicaciones de tecnología y encuentro bastante interés en la programación y Networking. Actualmente estoy buscando espacios formativos para <0>poner en práctica mis conocimientos y desempeñarme en un ámbito profesional</0>.",
+    "content2": "He participado en <0>proyectos demandantes, tanto mobile como web, experiencia de despliegue en servicios como Azure, Google Cloud Platform y AWS</0>, así como en implementaciones de soluciones SDN y Cloud Computing; y un entendimiento significativo en Linux.",
+    "content3": "Estando próxima al egreso, <0>siempre estoy en busca de oportunidades para continuar aprendiendo, incluyendo <em class='italic'>cursos online de Machine Learning</em> y otras tecnologías</0> que complementen mi formación académica."
   },
   "contact": {
     "title": "Contacto"
