@@ -19,21 +19,20 @@
     "title": "Proyectos",
     "items": [
         {
-            "title": "SVGL - Una hermosa librería con logos SVG",
+            "title": "ActiviConnect",
             "description":
-                "Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
-            "link": "https://svgl.app",
-            "github": "https://github.com/pheralb/svgl",
-            "image": "/projects/svgl.webp",
-            "tags": ["NEXT", "TAILWIND"]
+                "Aplicación Android nativa para la gestión de asistentes y delegados de las actividades de Semana de Ingeniería en la PUCP: competencias interdisciplinarias anuales entre especialidades de Ingeniería.",
+            "github": "https://github.com/jorgeluis03/ProyectoIoT",
+            "image": "/projects/activiconnect.webp",
+            "tags": ["JAVA", "FIREBASE"]
         },
         {
-            "title": "AdventJS - Retos de programación con JavaScript y TypeScript",
+            "title": "Clínica PUCP",
             "description":
-                "Plataforma gratuita con retos de programación. Más de 1 millón de visitas en un mes. +50K retos completados. Creada desde cero con Next.js, React y Tailwind CSS",
-            "link": "https://adventjs.dev",
-            "image": "/projects/adventjs.webp",
-            "tags": ["NEXT", "TAILWIND"]
+                "Página Web para la administración de atención médica a los pacientes de una clínica. Integración APIs para videollamadas, chat en tiempo real y consulta de datos mediante el DNI.",
+            "github": "https://github.com/smavend/ProyectoGTICS-Grupo2",
+            "image": "/projects/clinicapucp.webp",
+            "tags": ["JAVA", "SPRING", "MYSQL"]
         }
     ],
     "linkbutton": {
@@ -47,18 +46,17 @@
     "experiences": [
         {
             "date": "Actualmente...",
-            "title": "Creador de Contenido",
-            "company": "Twitch",
+            "title": "Beca Hijos de Docentes",
+            "company": "Pronabec",
             "description":
-                "Divulgo sobre programación y desarrollo web en diferentes plataformas. Galardonado como mejor creador de contenido de habla no-inglesa en 2022 y mejor comunidad en 2023 por GitHub.",
-            "link": "https://twitch.tv/midudev"
+                "Cuento con la beca integral de estudios, financiada por el Estado Peruano, desde el año 2022 hasta la fecha, que me permite continuar con mi formación universitaria."
         },
         {
-            "date": "Septiembre 2022",
-            "title": "Principal Frontend Engineer",
-            "company": "Adevinta Spain",
+            "date": "Noviembre 2019",
+            "title": "Certificado FCE - English B2",
+            "company": "Cambridge Assessment English",
             "description":
-                "Responsable de la plataforma, componentes y utilidades para la creación y desarrollo de aplicaciones web. Mejora de un 30% en la entrega de software. Implantación de medidas de integración continua y despliegue con A/B testing en más de 15 equipos."
+                "Obtuve este certificado en el 5° año de secundaria en el Colegio de Alto Rendimiento Lima Provincias, al cual obtuve acceso de rendir gracias a mis notas sobresalientes en el curso."
         }
     ]
   },

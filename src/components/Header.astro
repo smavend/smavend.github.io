@@ -22,12 +22,12 @@ const navItems: NavItem[] = t("nav", { returnObjects: true })
 		flex px-3 text-sm font-medium rounded-full text-gray-600 dark:text-gray-200 justify-center items-center
 		`}>
 		{
-			navItems.map((link) => (
+			navItems.map(({ title, label, url }) => (
 				<a
 					class={`relative block px-2 py-2 transition hover:text-blue-500 dark:hover:text-blue-400`}
-					aria-label={link.label}
-					href={link.url}>
-					{link.title}
+					aria-label={label}
+					href={url}>
+					{title}
 				</a>
 			))
 		}

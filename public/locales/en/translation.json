@@ -19,21 +19,20 @@
     "title": "Projects",
     "items": [
         {
-            "title": "SVGL - A beautiful library with SVG logos",
+            "title": "ActiviConnect",
             "description":
-                "SVG logo library of the most popular brands. +10k visits per month. +2K svgs downloaded. Built from scratch with Next.js, React and Tailwind CSS.",
-            "link": "https://svgl.app",
-            "github": "https://github.com/pheralb/svgl",
-            "image": "/projects/svgl.webp",
-            "tags": ["NEXT", "TAILWIND"]
+                "Native Android application for managing attendees and delegates of the Engineering Week activities at PUCP: annual interdisciplinary competitions among Engineering specializations.",
+            "github": "https://github.com/jorgeluis03/ProyectoIoT",
+            "image": "/projects/activiconnect.webp",
+            "tags": ["JAVA", "FIREBASE"]
         },
         {
-            "title": "AdventJS - Programming challenges with JavaScript and TypeScript",
+            "title": "PUCP Clinic",
             "description":
-                "Free platform with programming challenges. More than 1 million visits in one month. +50K challenges completed. Built from scratch with Next.js, React and Tailwind CSS.",
-            "link": "https://adventjs.dev",
-            "image": "/projects/adventjs.webp",
-            "tags": ["NEXT", "TAILWIND"]
+                "Website for managing medical care for clinic patients. Integration of APIs for videocalls, Real-Time chat, and data consultation via DNI.",
+            "github": "https://github.com/smavend/ProyectoGTICS-Grupo2",
+            "image": "/projects/clinicapucp.webp",
+            "tags": ["JAVA", "SPRING", "MYSQL"]
         }
     ],
     "linkbutton": {
@@ -47,18 +46,17 @@
     "experiences": [
         {
             "date": "Currently...",
-            "title": "Content Creator",
-            "company": "Twitch",
+            "title": "\"Hijos de Docentes\" Schollarship",
+            "company": "PRONABEC",
             "description":
-                "I spread the word about programming and web development on different platforms. Awarded best non-English speaking content creator in 2022 and best community in 2023 by GitHub.",
-            "link": "https://twitch.tv/midudev"
+                "I have a full scholarship, funded by the Peruvian government, since 2022 to date, which allows me to continue my university education."
         },
         {
-            "date": "September 2022",
-            "title": "Principal Frontend Engineer",
-            "company": "Adevinta Spain",
+            "date": "November 2019",
+            "title": "FCE Certificate: English B2",
+            "company": "Cambridge Assessment English",
             "description":
-                "Responsible for the platform, components and utilities for the creation and development of web applications. 30% improvement in software delivery. Implementation of continuous integration measures and deployment with A/B testing in more than 15 teams."
+                "I obtained this certificate in the 5th year of high school at the Colegio de Alto Rendimiento Lima Provincias, which I was able to attend thanks to my outstanding grades in the course."
         }
     ]
   },
