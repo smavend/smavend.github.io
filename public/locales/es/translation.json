@@ -1,105 +1,108 @@
 {
-  "site": {
-    "title": "Portfolio de mavend - Desarrolladora y Programadora Web Trainne",
-    "description": "Contrata a mavend para crear tu aplicación web o móvil. Desarrolladora Web. Especializada en crear aplicaciones únicas",
-    "example": "Ejemplo",
-    "components": "Componentes"
-  },
-  "hero": {
-    "title": "Hola, soy mavend",
-    "description": "<span>Estudiante de Ingeniería de Telecomunicaciones.</span><br /><strong> Interés en el rubro del Desarrollo Web, Móvil y Networking</strong>.<span> De Lima, Perú 🇵🇪</span>.<span class='text-green-600 dark:text-yellow-100'> Especializada en desarrollar aplicaciones de alto calidad.</span>",
-    "badge": "Disponible para trabajar",
-    "socialpill": {
-        "linkedin": "LinkedIn",
-        "github": "GitHub",
-        "mail": "Contáctame"
-    }
-  },
-  "projects": {
-    "title": "Proyectos",
-    "items": [
-        {
-            "title": "ActiviConnect",
-            "description":
-                "Aplicación Android nativa para la gestión de asistentes y delegados de las actividades de Semana de Ingeniería en la PUCP: competencias interdisciplinarias anuales entre especialidades de Ingeniería.",
-            "github": "https://github.com/jorgeluis03/ProyectoIoT",
-            "image": "/projects/activiconnect.webp",
-            "tags": ["JAVA", "FIREBASE"]
-        },
-        {
-            "title": "Clínica PUCP",
-            "description":
-                "Página Web para la administración de atención médica a los pacientes de una clínica. Integración APIs para videollamadas, chat en tiempo real y consulta de datos mediante el DNI.",
-            "github": "https://github.com/smavend/ProyectoGTICS-Grupo2",
-            "image": "/projects/clinicapucp.webp",
-            "tags": ["JAVA", "SPRING", "MYSQL"]
-        }
-    ],
-    "linkbutton": {
-        "github": "Código",
-        "link": "Visitar"
-    }
-  },
-  "experience": {
-    "title": "Logros y habilidades",
-    "more": "Saber más",
-    "experiences": [
-        {
-            "date": "Actualmente...",
-            "title": "Beca Hijos de Docentes",
-            "company": "Pronabec",
-            "description":
-                "Cuento con la beca integral de estudios, financiada por el Estado Peruano, desde el año 2022 hasta la fecha, que me permite continuar con mi formación universitaria."
-        },
-        {
-            "date": "Noviembre 2019",
-            "title": "Certificado FCE - English B2",
-            "company": "Cambridge Assessment English",
-            "description":
-                "Obtuve este certificado en el 5° año de secundaria en el Colegio de Alto Rendimiento Lima Provincias, al cual obtuve acceso de rendir gracias a mis notas sobresalientes en el curso."
-        }
-    ]
-  },
-  "about": {
-    "title": "Sobre mí",
-    "content1": "Me llamo Beatriz Manrique Avendaño, de alias mavend. En mi carrera universitaria veo muchas aplicaciones de tecnología y encuentro bastante interés en la programación y Networking. Actualmente estoy buscando espacios formativos para <0>poner en práctica mis conocimientos y desempeñarme en un ámbito profesional</0>.",
-    "content2": "He participado en <0>proyectos demandantes, tanto mobile como web, experiencia de despliegue en servicios como Azure, Google Cloud Platform y AWS</0>, así como en implementaciones de soluciones SDN y Cloud Computing; y un entendimiento significativo en Linux.",
-    "content3": "Estando próxima al egreso, <0>siempre estoy en busca de oportunidades para continuar aprendiendo, incluyendo <em class='italic'>cursos online de Machine Learning</em> y otras tecnologías</0> que complementen mi formación académica."
-  },
-  "contact": {
-    "title": "Contacto"
-  },
-  "footer": {
-    "text": "Casi todos los derechos reservados."
-  },
-  "nav": [
-    {
-      "title": "Proyectos",
-      "label": "projects",
-      "url": "/#projects"
-    },
-    {
-      "title": "Logros",
-      "label": "skills",
-      "url": "/#skills"
-    },
-    {
-      "title": "Sobre mí",
-      "label": "about",
-      "url": "/#about"
-    },
-    {
-      "title": "Contacto",
-      "label": "contact",
-      "url": "/#contact"
-    }
-  ],
-  "theme-toggle":{
-    "theme": "Escoge un tema",
-    "options": [{"text": "Claro", "theme": "light"}, {"text": "Oscuro", "theme": "dark"}, {"text": "Sistema", "theme": "system"}]
-  },
-  "lang-toggle":{
-    "lang": "Escoge un idioma",
-    "options": [{"text": "Español", "lang": "es"}, {"text": "Inglés", "lang": "en"}]
-  }
+	"site": {
+		"title": "Portfolio de mavend - Desarrolladora y Programadora Web Trainne",
+		"description": "Contrata a mavend para crear tu aplicación web o móvil. Desarrolladora Web. Especializada en crear aplicaciones únicas",
+		"example": "Ejemplo",
+		"components": "Componentes"
+	},
+	"hero": {
+		"title": "Hola, soy mavend",
+		"description": "<span>Estudiante de Ingeniería de Telecomunicaciones.</span><br /><strong> Interés en el rubro del Desarrollo Web, Móvil y Networking</strong>.<span> De Lima, Perú 🇵🇪</span>.<span class='text-green-600 dark:text-yellow-100'> Especializada en desarrollar aplicaciones de alta calidad.</span>",
+		"badge": "Disponible para trabajar",
+		"socialpill": {
+			"linkedin": "LinkedIn",
+			"github": "GitHub",
+			"mail": "Contáctame"
+		}
+	},
+	"projects": {
+		"title": "Proyectos",
+		"items": [
+			{
+				"title": "ActiviConnect",
+				"description": "Aplicación Android nativa para la gestión de asistentes y delegados de las actividades de Semana de Ingeniería en la PUCP: competencias interdisciplinarias anuales entre especialidades de Ingeniería.",
+				"github": "https://github.com/jorgeluis03/ProyectoIoT",
+				"image": "/projects/activiconnect.webp",
+				"tags": ["JAVA", "FIREBASE"]
+			},
+			{
+				"title": "Clínica PUCP",
+				"description": "Página Web para la administración de atención médica a los pacientes de una clínica. Integración APIs para videollamadas, chat en tiempo real y consulta de datos mediante el DNI.",
+				"github": "https://github.com/smavend/ProyectoGTICS-Grupo2",
+				"image": "/projects/clinicapucp.webp",
+				"tags": ["JAVA", "SPRING", "MYSQL"]
+			}
+		],
+		"linkbutton": {
+			"github": "Código",
+			"link": "Visitar"
+		}
+	},
+	"experience": {
+		"title": "Logros y habilidades",
+		"more": "Saber más",
+		"experiences": [
+			{
+				"date": "Actualmente...",
+				"title": "Beca Hijos de Docentes",
+				"company": "Pronabec",
+				"description": "Cuento con la beca integral de estudios, financiada por el Estado Peruano, desde el año 2022 hasta la fecha, que me permite continuar con mi formación universitaria."
+			},
+			{
+				"date": "Noviembre 2019",
+				"title": "Certificado FCE - English B2",
+				"company": "Cambridge Assessment English",
+				"description": "Obtuve este certificado en el 5° año de secundaria en el Colegio de Alto Rendimiento Lima Provincias, al cual obtuve acceso de rendir gracias a mis notas sobresalientes en el curso."
+			}
+		]
+	},
+	"about": {
+		"title": "Sobre mí",
+		"content1": "Me llamo Beatriz Manrique Avendaño, de alias mavend. En mi carrera universitaria veo muchas aplicaciones de tecnología y encuentro bastante interés en la programación y Networking. Actualmente estoy buscando espacios formativos para <0>poner en práctica mis conocimientos y desempeñarme en un ámbito profesional</0>.",
+		"content2": "He participado en <0>proyectos demandantes, tanto mobile como web, experiencia de despliegue en servicios como Azure, Google Cloud Platform y AWS</0>, así como en implementaciones de soluciones SDN y Cloud Computing; y un entendimiento significativo en Linux.",
+		"content3": "Estando próxima al egreso, <0>siempre estoy en busca de oportunidades para continuar aprendiendo, incluyendo <em class='italic'>cursos online de Machine Learning</em> y otras tecnologías</0> que complementen mi formación académica."
+	},
+	"contact": {
+		"title": "Contacto"
+	},
+	"footer": {
+		"text": "Casi todos los derechos reservados."
+	},
+	"nav": [
+		{
+			"title": "Proyectos",
+			"label": "projects",
+			"url": "/#projects"
+		},
+		{
+			"title": "Logros",
+			"label": "skills",
+			"url": "/#skills"
+		},
+		{
+			"title": "Sobre mí",
+			"label": "about",
+			"url": "/#about"
+		},
+		{
+			"title": "Contacto",
+			"label": "contact",
+			"url": "/#contact"
+		}
+	],
+	"theme-toggle": {
+		"theme": "Escoge un tema",
+		"options": [
+			{ "text": "Claro", "theme": "light" },
+			{ "text": "Oscuro", "theme": "dark" },
+			{ "text": "Sistema", "theme": "system" }
+		]
+	},
+	"lang-toggle": {
+		"lang": "Escoge un idioma",
+		"options": [
+			{ "text": "Español", "lang": "es" },
+			{ "text": "Inglés", "lang": "en" }
+		]
+	}
 }
